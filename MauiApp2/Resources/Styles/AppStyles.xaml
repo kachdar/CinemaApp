@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="titleColor">#ffffff</Color>
+    <Color x:Key="genreColor">#637394</Color>
+    <x:Double x:Key="homeTitleSize">16</x:Double>
+    <x:Double x:Key="homeGenreSize">14</x:Double>
+    <x:String x:Key="fontFamily">Poppins</x:String>
+    
+    <Style x:Key="homeTitleStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource Key=titleColor}"/>
+        <Setter Property="FontFamily" Value="{StaticResource Key=fontFamily}" />
+        <Setter Property="FontSize" Value="{StaticResource Key=homeTitleSize}"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+    </Style>
+
+    <Style x:Key="homeGenreStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource Key=genreColor}"/>
+        <Setter Property="FontFamily" Value="{StaticResource Key=fontFamily}" />
+        <Setter Property="FontSize" Value="{StaticResource Key=homeGenreSize}"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+    </Style>
+
+    <Style x:Key="searchEntry" TargetType="Entry">
+        <Setter Property="TextColor" Value="{StaticResource Key=titleColor}"/>
+        <Setter Property="FontFamily" Value="{StaticResource Key=fontFamily}" />
+        <Setter Property="FontSize" Value="{StaticResource Key=homeGenreSize}"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+    </Style>
+
+</ResourceDictionary>

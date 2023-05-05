@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{0BC8F7EB-5A56-4DED-8637-C9832FBA38B0}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MauiApp2 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MauiApp2/Views/MoviePage.xaml">
+    <Files>
+      <File FileName="MauiApp2/Views/MainPage.xaml.cs" Line="19" Column="1" />
+      <File FileName="MauiApp2/Views/MainPage.xaml" Line="7" Column="65" />
+      <File FileName="MauiApp2/Models/User.cs" Line="12" Column="22" />
+      <File FileName="MauiApp2/Services/UserService.cs" Line="30" Column="1" />
+      <File FileName="MauiApp2/ViewModels/HomeViewModel.cs" Line="33" Column="1" />
+      <File FileName="MauiApp2/ViewModels/MovieViewModel.cs" Line="17" Column="9" />
+      <File FileName="MauiApp2/Views/MoviePage.xaml" Line="15" Column="42" />
+      <File FileName="MauiApp2/Views/MoviePage.xaml.cs" Line="8" Column="1" />
+      <File FileName="MauiApp2/AppShell.xaml" Line="12" Column="24" />
+      <File FileName="MauiApp2/Platforms/MacCatalyst/Program.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MauiApp2" expanded="True">
+            <Node name="MauiApp2" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="MacCatalyst" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="MoviePage.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="webAPI" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.webAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="runAll" Name="runAll">
+      <Items>
+        <StartupItem ItemId="{0BC8F7EB-5A56-4DED-8637-C9832FBA38B0}" ItemName="MauiApp2" ConfigurationId="Default" />
+        <StartupItem ItemId="{033A7AF8-63EE-4B19-8905-67C2EC61CFF5}" ItemName="webAPI" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>
